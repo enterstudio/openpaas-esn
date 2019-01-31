@@ -13,7 +13,7 @@
     "awesome-sessionstore": "git+https://ci.open-paas.org/stash/scm/or/awesome-sessionstore.git",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "1.15.2",
-    "bower": "1.7.9",
+    "bower": "1.8.8",
     "bson": "0.5.4",
     "busboy": "0.2.13",
     "canvas": "1.5.0",
