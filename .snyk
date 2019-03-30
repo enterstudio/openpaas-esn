@@ -1,0 +1,23 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - mongoconfig > mongoose > mquery > debug:
+        patched: '2019-03-30T08:33:09.747Z'
+  'npm:lodash:20180130':
+    - email-templates > juice > web-resource-inliner > lodash:
+        patched: '2019-03-30T08:33:09.747Z'
+  'npm:ms:20170412':
+    - mongoconfig > mongoose > ms:
+        patched: '2019-03-30T08:33:09.747Z'
+    - mongoconfig > mongoose > mquery > debug > ms:
+        patched: '2019-03-30T08:33:09.747Z'
+    - passport-jwt > jsonwebtoken > ms:
+        patched: '2019-03-30T08:33:09.747Z'
+  'npm:uglify-js:20151024':
+    - jade > transformers > uglify-js:
+        patched: '2019-03-30T08:33:09.747Z'
+    - kue > jade > transformers > uglify-js:
+        patched: '2019-03-30T08:33:09.747Z'
