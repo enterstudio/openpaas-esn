@@ -92,7 +92,8 @@
     "valid-url": "1.0.9",
     "winston": "2.2.0",
     "xml2js": "0.4.17",
-    "yargs": "6.5.0"
+    "yargs": "6.5.0",
+    "snyk": "^1.369.2"
   },
   "devDependencies": {
     "chai": "3.5.0",
@@ -160,7 +161,9 @@
     "time-grunt": "^1.4.0"
   },
   "scripts": {
-    "postinstall": "bower install --allow-root"
+    "postinstall": "bower install --allow-root",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bin": {
     "openpaas-cli": "./bin/cli.js",
@@ -171,5 +174,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/linagora/openpaas-esn.git"
-  }
+  },
+  "snyk": true
 }
