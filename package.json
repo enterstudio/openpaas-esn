@@ -7,7 +7,7 @@
     "amqplib": "0.5.0",
     "archiver": "1.3.0",
     "async": "2.0.1",
-    "async-eventemitter": "0.2.2",
+    "async-eventemitter": "0.2.3",
     "awesome-module": "1.0.0",
     "awesome-module-manager": "1.1.4",
     "awesome-sessionstore": "git+https://ci.open-paas.org/stash/scm/or/awesome-sessionstore.git",
