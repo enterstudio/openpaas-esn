@@ -43,7 +43,7 @@
     "i18n": "git+https://github.com/linagora/i18n-node.git#multiDirectories",
     "ical.js": "github:linagora/ical.js#v1.1.2-#279-require-twice-protection",
     "jade": "^1.11.0",
-    "jsonwebtoken": "7.1.9",
+    "jsonwebtoken": "9.0.0",
     "konphyg": "1.4.0",
     "kue": "0.11.1",
     "ldapauth-fork": "github:linagora/node-ldapauth-fork#a07fabf472c16cbf533dfe0c7319d5ce79a869dc",
