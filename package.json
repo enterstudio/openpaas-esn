@@ -18,7 +18,7 @@
     "busboy": "0.2.13",
     "canvas": "1.5.0",
     "charAPI": "git+https://ci.open-paas.org/stash/scm/olibs/char-api.git",
-    "chokidar": "1.6.0",
+    "chokidar": "3.0.0",
     "composable-middleware": "0.3.0",
     "connect-dynamic-middleware": "0.1.0",
     "connect-flash": "0.1.1",
