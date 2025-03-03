@@ -37,7 +37,7 @@
     "express-session": "1.14.1",
     "extend": "3.0.0",
     "fs-extra": "0.30.0",
-    "gm": "1.23.0",
+    "gm": "1.25.1",
     "gridfs-stream": "1.1.1",
     "hash_file": "0.1.1",
     "i18n": "git+https://github.com/linagora/i18n-node.git#multiDirectories",
